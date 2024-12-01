@@ -2,10 +2,6 @@ using UnityEngine;
 
 public class CubeCollision : MonoBehaviour
 {
-
-
-  
-
     public string cubeColor; // The color of the cube
     private bool isCollided = false; // Has the cube collided with the bottom object?
     private bool isActive = true; //  // Is the cube still active?
@@ -14,7 +10,7 @@ public class CubeCollision : MonoBehaviour
 
     void Start()
     {
-        // àúçåì èééîø
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
         timer = cubeLifetime;
 
     }
